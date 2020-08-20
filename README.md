@@ -1,8 +1,9 @@
 ## Github 특강 ( 2d, 16h )
 
-<pre>
 
-* (Intro) Funny things 
+#### Intro
+<pre>
+* Funny things 
     - auto draw
     - quick draw
     - Teachable Machine
@@ -19,5 +20,45 @@
     - API 가 serving 하는 data 가 JSON, XML 인거지, 그 자체가 API 인건 아님!
     - MSA가 최종적으로 제공해야 하는건 결국 >> "API DATA"
     >> 그러면 모든 Frontend Framework 이용 가능, Native도 당연히 가능
+
+    - Interface : 접점
+</pre>
+
+#### venv
+<pre>
+* For deploy and Virtual env
+    - commands
+        >> `python -m venv venv`
+        >> `source venv/bin/activate (Mac)`
+        >> `source venv/Script/activate (Window)`
+
+* version name convention ( rough? i guess )
+    - 1.3.1
+    - (Major).(Minor).(Patch) [change]
+</pre>
+
+
+#### git
+
+<pre>
+
+* Markdown
+    - typora
+* git basics... (add, commit etc.. )
+* Gits
+    - github
+    - gitlab
+    - bitbucket
+
+* `ping google.com > log.txt`
+
+* remote setting
+    `git init`
+    `git remote add origin (master) [link]`
+    `git add .`
+    `git commit -m "message"`
+    `git push (-u) origin master`
+
+* gitignore.io
 
 </pre>
