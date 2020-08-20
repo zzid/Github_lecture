@@ -31,7 +31,7 @@
         >> `python -m venv venv`
         >> `source venv/bin/activate (Mac)`
         >> `source venv/Script/activate (Window)`
-
+    >> `rm -rf .git`
 * version name convention ( rough? i guess )
     - 1.3.1
     - (Major).(Minor).(Patch) [change]
