@@ -32,6 +32,9 @@
         >> <code>source venv/bin/activate (Mac)</code>
         >> <code>source venv/Script/activate (Window)</code>
     >> <code>rm -rf .git</code>
+    
+    >> <code>pip freeze > requirements.txt</code>
+    >> <code>pip install -r requirements.txt</code>
 * version name convention ( rough? i guess )
     - 1.3.1
     - (Major).(Minor).(Patch) [change]
