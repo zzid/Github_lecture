@@ -28,10 +28,10 @@
 <pre>
 * For deploy and Virtual env
     - commands
-        >> `python -m venv venv`
-        >> `source venv/bin/activate (Mac)`
-        >> `source venv/Script/activate (Window)`
-    >> `rm -rf .git`
+        >> <code>python -m venv venv</code>
+        >> <code>source venv/bin/activate (Mac)</code>
+        >> <code>source venv/Script/activate (Window)</code>
+    >> <code>rm -rf .git</code>
 * version name convention ( rough? i guess )
     - 1.3.1
     - (Major).(Minor).(Patch) [change]
@@ -50,14 +50,14 @@
     - gitlab
     - bitbucket
 
-* `ping google.com > log.txt`
+* <code>ping google.com > log.txt</code>
 
 * remote setting
-    `git init`
-    `git remote add origin (master) [link]`
-    `git add .`
-    `git commit -m "message"`
-    `git push (-u) origin master`
+    <code>git init</code>
+    <code>git remote add origin (master) [link]</code>
+    <code>git add .</code>
+    <code>git commit -m "message"</code>
+    <code>git push (-u) origin master</code>
 
 * gitignore.io
 
