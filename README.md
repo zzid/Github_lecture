@@ -1,7 +1,7 @@
-## Github 특강 ( 2d, 16h )
+# Github 특강 ( 2d, 16h )
 
 
-#### Intro
+### Intro
 <pre>
 * Funny things 
     - auto draw
@@ -24,7 +24,7 @@
     - Interface : 접점
 </pre>
 
-#### venv
+### venv
 <pre>
 * For deploy and Virtual env
     - commands
@@ -41,8 +41,8 @@
 </pre>
 
 
-#### git
-##### (git book에 모든 것 다 있음)
+### git
+#### (git book에 모든 것 다 있음)
 <pre>
 
 * Markdown
@@ -64,7 +64,7 @@
 
 * gitignore.io
 
-    >> git log --pretty ?
+>> git log --pretty=online
 
 * commands
     >> git commit --amend
