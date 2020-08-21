@@ -28,13 +28,13 @@
 <pre>
 * For deploy and Virtual env
     - commands
-        >> <code>python -m venv venv</code>
-        >> <code>source venv/bin/activate (Mac)</code>
-        >> <code>source venv/Script/activate (Window)</code>
-    >> <code>rm -rf .git</code>
+        >> python -m venv venv
+        >> source venv/bin/activate (Mac)
+        >> source venv/Script/activate (Window)
+    >> rm -rf .git
     
-    >> <code>pip freeze > requirements.txt</code>
-    >> <code>pip install -r requirements.txt</code>
+    >> pip freeze > requirements.txt
+    >> pip install -r requirements.txt
 * version name convention ( rough? i guess )
     - 1.3.1
     - (Major).(Minor).(Patch) [change]
@@ -42,7 +42,7 @@
 
 
 #### git
-
+##### (git book에 모든 것 다 있음)
 <pre>
 
 * Markdown
@@ -53,15 +53,44 @@
     - gitlab
     - bitbucket
 
-* <code>ping google.com > log.txt</code>
+* ping google.com > log.txt
 
 * remote setting
-    <code>git init</code>
-    <code>git remote add origin (master) [link]</code>
-    <code>git add .</code>
-    <code>git commit -m "message"</code>
-    <code>git push (-u) origin master</code>
+    git init
+    git remote add origin (master) [link]
+    git add .
+    git commit -m "message"
+    git push (-u) origin master
 
 * gitignore.io
 
+    >> git log --pretty ?
+
+* commands
+    >> git commit --amend
+    >> git reset HEAD (file)
+
+* branch (Example)
+    ** 모든 기준은 commit
+    ** HEAD는 포인터 이동
+
+    >> git branch feature/board 
+    >> git checkout feature/board (or newer version ->) git switch feature/board
+    (** slash is like 'convention')
+
+    branch에서 파일 만들고 git건들지도 않았는데,
+    master에 갔는데 왜 그 파일이 있는걸까? 
+        -> untracked 상태에서는 있음.
+        -> (branch 에서) add, commit 후에는 master 에서 안보임 
+
+
+    >> (branch) git add .
+    >> (branch) git commit -m ""
+    >> (master) git merger branch
+
+    ** branch는 할일 끝나면 지우는게 맞다.
+        >> git branch -d (branchname)
+    
+    ** make and switch (branch)
+        >> git checkout -b (branchname)
 </pre>
