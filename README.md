@@ -64,7 +64,7 @@
 
 * gitignore.io
 
->> git log --pretty=online
+<del>>> git log --pretty=online</del>
 
 * commands
     >> git commit --amend
@@ -82,7 +82,7 @@
     master에 갔는데 왜 그 파일이 있는걸까? 
         -> untracked 상태에서는 있음.
         -> (branch 에서) add, commit 후에는 master 에서 안보임 
-
+    -> ** 모든 기준은 commit
 
     >> (branch) git add .
     >> (branch) git commit -m ""
@@ -93,4 +93,8 @@
     
     ** make and switch (branch)
         >> git checkout -b (branchname)
+</pre>
+
+<pre>
+* Conflict Scenario
 </pre>
