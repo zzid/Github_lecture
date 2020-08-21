@@ -104,3 +104,14 @@
     >> git commit -m ""
     >> git push
 </pre>
+
+<pre>
+* Simulating [ Open source contributing ]
+    ** start with "fork"
+    We are doing like, 
+    fork 
+    -> cloning from my repo 
+    -> modify and add,commit,push 
+    -> pull request from my repo
+    -> create pull request
+</pre>
