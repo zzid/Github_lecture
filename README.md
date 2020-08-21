@@ -97,4 +97,9 @@
 
 <pre>
 * Conflict Scenario
+    (if conflict occur!)
+    >> git pull
+    (select which one will you commit in the conflict code)
+    >> git commit -m ""
+    >> git push
 </pre>
