@@ -100,7 +100,7 @@
     (if conflict occur!)
     >> git pull
     (select which one will you commit in the conflict code)
-    [[ AND SHOULD CONTACT WITH FORMER WRITER :( ]]
+    [[      AND SHOULD CONTACT WITH FORMER WRITER :(      )]]
     >> git commit -m ""
     >> git push
 </pre>
