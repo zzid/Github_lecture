@@ -65,7 +65,7 @@
 * gitignore.io
 
 <del>>> git log --pretty=online</del>
-
+>> git log --oneline --decorate --graph
 * commands
     >> git commit --amend
     >> git reset HEAD (file)
